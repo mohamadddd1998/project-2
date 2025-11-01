@@ -1,0 +1,4 @@
+[submodule "packages/core"]
+	path = packages/core
+	url = https://github.com/mohamadddd1998/core.git
+	branch = master
