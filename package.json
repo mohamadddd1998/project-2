@@ -6,12 +6,12 @@
   "scripts": {},
   "workspaces": [
     "packages/*",
-    "packages/common-core/packages/*"
+    "packages/core/packages/*"
   ],
   "dependencies": {
-    "base": "file:./packages/common-core/packages/base",
-    "shared": "file:./packages/common-core/packages/shared",
-    "ui": "file:./packages/common-core/packages/ui"
+    "base": "file:./packages/core/packages/base",
+    "shared": "file:./packages/core/packages/shared",
+    "ui": "file:./packages/core/packages/ui"
   },
   "author": "",
   "license": "ISC"

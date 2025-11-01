@@ -7,10 +7,13 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "#base": path.resolve(__dirname, "../base/src"),
-      "#components": path.resolve(__dirname, "../ui/src/components"),
-      "#ui": path.resolve(__dirname, "../ui/src"),
-      "#shared": path.resolve(__dirname, "../shared/src"),
+      "#base": path.resolve(__dirname, "../core/packages/base/src"),
+      "#components": path.resolve(
+        __dirname,
+        "../core/packages/ui/src/components"
+      ),
+      "#ui": path.resolve(__dirname, "../core/packages/ui/src"),
+      "#shared": path.resolve(__dirname, "../core/packages/shared/src"),
       "#admin": path.resolve(__dirname, "./src"),
     },
   },

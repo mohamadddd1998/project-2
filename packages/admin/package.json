@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "shared": "*",
-    "ui": "*",
-    "base": "*",
+    "ui": "file:../core/packages/ui",
+    "shared": "file:../core/packages/shared",
+    "base": "file:../core/packages/base",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

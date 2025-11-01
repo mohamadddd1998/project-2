@@ -27,10 +27,10 @@
   "baseUrl": ".",
   "paths": {
     "#client/*": ["./src/*"],
-    "#components/*": ["../ui/src/components/*"],
-    "#ui/*": ["../ui/src/*"],
-    "#base/*": ["../base/src/*"],
-    "#shared/*": ["../shared/src/*"]
+    "#components/*": ["../core/packages/ui/src/components/*"],
+    "#ui/*": ["../core/packages/ui/src/*"],
+    "#base/*": ["../core/packages/base/src/*"],
+    "#shared/*": ["../core/packages/shared/src/*"]
   },
-  "include": ["**/*", "../base/**/*", "../ui/**/*", "../shared/**/*"]
+  "include": ["src", "../core/packages/*/src"]
 }
